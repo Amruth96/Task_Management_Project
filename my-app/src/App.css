@@ -1,0 +1,50 @@
+/* Basic layout */
+.app-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.task-item {
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  form input,
+  form textarea {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px;
+  }
+}
